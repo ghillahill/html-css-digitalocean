@@ -9,7 +9,7 @@ nav {
 }
 
 .row {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 h1, h2, h3, h4 {
@@ -22,6 +22,7 @@ h1 {
 
 h2 {
     font-size: 36px;
+    color: #031b4e;
 }
 
 h3 {
@@ -30,7 +31,7 @@ h3 {
 }
 
 h4 {
-    color: #7A869E;
+    color: #5b6987;
     font-size: 16px;
 }
 
@@ -41,6 +42,16 @@ a {
 
 a:focus, a:hover {
     text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #5b6987;
+}
+
+.p-medium {
+    font-size: 20px;
 }
 
 .btn-default {
@@ -71,6 +82,11 @@ a:focus, a:hover {
     vertical-align: middle;
 }
 
+.fa-circle {
+    font-size: 12px;
+    padding: 3px;
+    color: #0069ff;
+}
 
 /*____Inizio Navbar____*/
 
@@ -164,6 +180,7 @@ ul.nav.navbar-nav.navbar-right {
 #jumbotron .p-style {
     font-size: 25px;
     font-weight: 100;
+    color: #fff;
 }
 
 .news-popup a > p{
@@ -295,7 +312,7 @@ button.disabled {
     border-bottom: 3px solid blue;
 }
 
-.border-line .disabled{
+.border-line .disable{
     border-bottom: 3px solid grey;
 }
 
@@ -312,6 +329,46 @@ button.disabled {
 
 /*____Fine Sezione Deploy____*/
 
+
+/*____Fine Sezione Carousel____*/
+
+#carousel {
+    position: relative;
+    background-color: #F1F1F1;
+    padding: 50px 0;
+}
+
+.fa-long-arrow-alt-right {
+    position: absolute;
+    top: 42%;
+    right: 25px;
+    z-index: 2;
+    font-size: 35px;
+    color: #0069ff;
+}
+
+.fa-long-arrow-alt-left {
+    position: absolute;
+    top: 42%;
+    left: 25px;
+    z-index: 2;
+    font-size: 35px;
+    color: #0069ff;
+}
+
+#carousel div{
+    background-color: #F1F1F1;
+    padding-bottom: 10px;
+}
+
+#carousel img {
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(3,27,78,0.06);
+}
+
+/*____Fine Sezione Carousel____*/
+
 @media (min-width: 768px) {
     .info-box {
         text-align: left;
@@ -323,7 +380,7 @@ button.disabled {
         border-left: 3px solid blue;
     }
 
-    .border-line .disabled {
+    .border-line .disable {
         padding-left: 5px;
         border-bottom: none;
         border-left: 3px solid grey;
