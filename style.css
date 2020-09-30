@@ -345,7 +345,7 @@ button.disabled {
 .fa-long-arrow-alt-right {
     position: absolute;
     top: 42%;
-    right: 25px;
+    right: 200px;
     z-index: 2;
     font-size: 35px;
     color: #0069ff;
@@ -354,10 +354,10 @@ button.disabled {
 .fa-long-arrow-alt-left {
     position: absolute;
     top: 42%;
-    left: 25px;
+    left: 200px;
     z-index: 2;
     font-size: 35px;
-    color: #0069ff;
+    color: grey;
 }
 
 #carousel div {
@@ -390,6 +390,66 @@ button.disabled {
 
 #data-center {
     background: #031b4e url('https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg');
+    padding: 100px 0;
+}
+
+#data-center .short {
+    width: 80%;
+}
+
+#data-center h2,#data-center p  {
+    color: #fff;
+}
+
+#data-center a {
+    color: #0069ff;
+}
+
+#data-center ul {
+    width: 100%;
+    display: inline-block;
+    padding-inline-start: 0;
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+    margin-right: 25px;
+}
+
+#data-center li {
+    display: inline-block;
+}
+
+#data-center .li-one {
+    width: 15%;
+    display: inline-block;
+}
+
+#data-center .li-two {
+    width: 68%;
+    display: inline-block;
+}
+
+#data-center .li-three {
+    width: 15%;
+    display: inline-block;
+}
+
+#data-center span {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+}
+
+#data-center .p-list {
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+#data-center a {
+    color: #00d7d2;
+}
+
+#data-center a:hover {
+    color: #1633ff;
 }
 
 /*____Fine Sezione Data-center____*/
@@ -416,5 +476,9 @@ button.disabled {
 
     #deploy button {
         padding-bottom: 15px;
+    }
+
+    #data-center .short {
+        width: 50%;
     }
 }
