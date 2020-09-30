@@ -78,6 +78,10 @@ p {
     border-color: #006aff;
 }
 
+.info-box {
+    padding-bottom: 30px;
+}
+
 .fa-angle-down {
     vertical-align: middle;
 }
@@ -173,7 +177,7 @@ ul.nav.navbar-nav.navbar-right {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px 0px;
+    padding: 50px 0px;
     color: white;
 }
 
@@ -356,7 +360,7 @@ button.disabled {
     color: #0069ff;
 }
 
-#carousel div{
+#carousel div {
     background-color: #F1F1F1;
     padding-bottom: 10px;
 }
@@ -369,12 +373,36 @@ button.disabled {
 
 /*____Fine Sezione Carousel____*/
 
+/*____Inizio Sezione Built-business____*/
+
+#built-business {
+    padding: 50px 0;
+}
+
+#built-business a {
+    color: #0069ff;
+}
+
+/*____Fine Sezione Built-business____*/
+
+
+/*____Inizio Sezione Data-center____*/
+
+#data-center {
+    background: #031b4e url('https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg');
+}
+
+/*____Fine Sezione Data-center____*/
+
+
+/*____Inizio Media Queries____*/
+
 @media (min-width: 768px) {
     .info-box {
         text-align: left;
     }
 
-    .border-line .active{
+    .border-line .active {
         padding-left: 5px;
         border-bottom: none;
         border-left: 3px solid blue;
