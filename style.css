@@ -12,12 +12,16 @@ nav {
     margin-bottom: 50px;
 }
 
-h1, h3, h4 {
+h1, h2, h3, h4 {
     font-weight: 700;
 }
 
 h1 {
     font-size: 58px;
+}
+
+h2 {
+    font-size: 36px;
 }
 
 h3 {
@@ -158,7 +162,8 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 #jumbotron .p-style {
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .news-popup a > p{
@@ -251,3 +256,80 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 /*____Fine Sezione logos____*/
+
+
+/*____Inizio Sezione Deploy____*/
+
+#deploy {
+    padding: 50px 0;
+}
+
+#deploy h2, h4{
+    color: #031B4E;
+}
+
+#deploy .text-box {
+    width: 65%;
+    padding-top: 10px;
+    font-weight: 100;
+    font-size: 23px;
+    color: #5b6987;
+}
+
+.btn-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(3, 27, 78, 0.6);
+    border-radius: 0;
+}
+
+button.active {
+    color: #031b4e;
+}
+
+button.disabled {
+    color: #031b4e;
+}
+
+.border-line .active{
+    border-bottom: 3px solid blue;
+}
+
+.border-line .disabled{
+    border-bottom: 3px solid grey;
+}
+
+#deploy .btn {
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: #031b4e;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*____Fine Sezione Deploy____*/
+
+@media (min-width: 768px) {
+    .info-box {
+        text-align: left;
+    }
+
+    .border-line .active{
+        padding-left: 5px;
+        border-bottom: none;
+        border-left: 3px solid blue;
+    }
+
+    .border-line .disabled {
+        padding-left: 5px;
+        border-bottom: none;
+        border-left: 3px solid grey;
+    }
+
+    #deploy button {
+        padding-bottom: 15px;
+    }
+}
