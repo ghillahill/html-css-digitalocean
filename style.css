@@ -1,11 +1,62 @@
 body {
-    padding-top: 70px;
+    padding-top: 119px;
+    font-size: 15px;
     font-family: 'Segoe UI', sans-serif;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+h1, h3, h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 58px;
+}
+
+h3 {
+    color: #031b4e;
+    font-size: 18px;
+}
+
+h4 {
+    color: #7A869E;
+    font-size: 16px;
 }
 
 a {
     color: #5b6987;
     text-decoration: none;
+}
+
+.btn-default {
+    color: #006aff;
+    background-color: transparent;
+    border-color: #006aff;
+}
+
+.btn-default:hover {
+    color: #fff;
+    background-color: #006aff;
+    border-color: #006aff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #006aff;
+    border-color: #006aff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #006aff;
+    border-color: #006aff;
 }
 
 .fa-angle-down {
@@ -83,36 +134,110 @@ ul.nav.navbar-nav.navbar-right {
     font-weight: bold;
 }
 
-.btn-default {
-    color: #006aff;
-    background-color: transparent;
-    border-color: #006aff;
-}
-
-.btn-default:hover {
-    color: #fff;
-    background-color: #006aff;
-    border-color: #006aff;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #006aff;
-    border-color: #006aff;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #006aff;
-    border-color: #006aff;
-}
-
 .navbar-one {
     border-bottom: 1px solid rgb(229,232,237);
 }
 
 /*____Fine Navbar____*/
 
-.news-popup {
-    
+
+/*____Inizio Jumbotron____*/
+
+#jumbotron {
+    background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+    background-color: #0069ff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    color: white;
 }
+
+#jumbotron .p-style {
+    font-size: 24px;
+}
+
+.news-popup a > p{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #031B4E;
+    color: white;
+    border-radius: 8px;
+}
+
+.news-popup a > p:hover {
+    transform: scale(1.005);
+    box-shadow: rgba(3, 27, 78, 0.1) 0px 10px 20px;
+    background-color: rgb(21, 205, 114);
+}
+
+.panel {
+    max-width: 100%;
+    min-height: 320px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-default>.panel-heading {
+    width: 100%;
+    color: #333;
+    background-color: #f3f5f9;
+    border-color: #ddd;
+}
+
+.panel-body {
+    width: 100%;
+    padding: 32px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.form-control {
+    height: 100%;
+    font-size: 18px;
+    padding: 14px;
+}
+
+.panel-footer {
+    padding: 30px 32px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn-form {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    border: 1px solid #006aff;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*____Fine Jumbotron____*/
+
+
+/*____Inizio Sezione logos____*/
+
+#logos {
+    background-color: #F3F5F9;
+}
+
+/*____Fine Sezione logos____*/
