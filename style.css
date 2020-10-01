@@ -552,6 +552,51 @@ button.disabled {
 /*____Fine Sezione Get-Started____*/
 
 
+/*____Inizio Footer____*/
+
+footer {
+    background-color: #010E28;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer a {
+    color: hsla(0,0%,100%,0.5);
+}
+
+footer a:hover {
+    color: hsla(0,0%,100%,1);
+}
+
+footer ul {
+    list-style: none;
+    padding-inline-start: 0;
+    text-align: left;
+}
+
+footer li {
+    padding: 3px 0;
+}
+
+.footer-divider {
+    padding-top: 10px;
+    border-top: 1px solid grey;
+}
+
+.footer-divider p {
+    font-size: 15px;
+    color: hsla(0,0%,100%,0.5);
+}
+
+.footer-divider i {
+    font-size: 20px;
+}
+
+/*____Fine Footer____*/
+
+
 /*____Inizio Media Queries____*/
 
 @media (min-width: 768px) {
